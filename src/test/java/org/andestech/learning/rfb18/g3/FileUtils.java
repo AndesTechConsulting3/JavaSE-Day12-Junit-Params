@@ -23,13 +23,13 @@ public class FileUtils {
             {
                String dataString = scanner.next();
                // System.out.println(scanner.next());
-               if(dataString.startsWith("#") || dataString.isEmpty() || dataString.contains(" ")) continue;
+               if(dataString.startsWith("#") || dataString.isEmpty()) continue;
 
                arr = new Integer[3];
                String[] stArray = dataString.split(",");
                for (int i=0; i<3; i++)
                {
-                   arr[i] = Integer.parseInt(stArray[i]);
+                   arr[i] = Integer.parseInt(stArray[i].trim());
 
                }
 
