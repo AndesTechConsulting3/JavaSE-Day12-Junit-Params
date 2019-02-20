@@ -1,4 +1,4 @@
-package org.andestech.learning.rfb18.g2;
+package org.andestech.learning.rfb18.g3;
 
 import org.junit.Assert;
 import org.junit.Ignore;
@@ -10,22 +10,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Math1
-{
-    public static int summa(int a, int b)
-    {
-        return a+b;
-    }
-}
-
 @RunWith(Parameterized.class)
-public class ParameterTest {
+public class ParameterTest222 {
 
     private int x;
     private int y;
     private int z;
 
-    public ParameterTest(int x, int y, int z) {
+    public ParameterTest222(int x, int y, int z) {
         this.x = x;
         this.y = y;
         this.z = z;

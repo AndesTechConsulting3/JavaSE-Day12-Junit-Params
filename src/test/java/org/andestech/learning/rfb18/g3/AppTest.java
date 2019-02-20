@@ -1,4 +1,4 @@
-package org.andestech.learning.rfb18.g2;
+package org.andestech.learning.rfb18.g3;
 
 import static org.junit.Assert.assertTrue;
 
